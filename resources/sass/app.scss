@@ -1,0 +1,57 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+#wrapper{
+    min-height: 100vh;
+}
+.container{
+    max-width: 100%;
+}
+.navbar{
+    background-color: #2a5784!important;
+    color: #d6dce2!important;
+    padding: 0.5rem 0!important;
+}
+.navbar-brand, .nav-header .nav-item .nav-link{
+    color: #d6dce2!important;
+}
+
+.nav-custom .nav-item .nav-link{
+    color: #343a40!important;
+}
+.wrapper-custom{
+    background-color: #f1f3fa;
+    //background-color: black;
+}
+.header-project{
+    padding: 40px 20px 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.project-name{
+    text-decoration: underline!important;
+}
+.nav{
+    padding: 0 40px 0 40px;
+}
+.nav-custom .nav-item .active{
+    border-top: 2px solid #727cf5;
+    border-bottom: none;
+    background-color: white;
+}
+.wrapper-custom .tab-content{
+    min-height: calc(100vh - 250px);
+}
+.tab-content{
+    background-color: white;
+    padding: 20px 40px 0 40px
+}
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm{
+    padding: 0 20px 0 40px!important;
+    margin: 0;
+}
